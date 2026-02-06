@@ -7,15 +7,15 @@ function ymd(d) {
   return { y: d.getFullYear(), m: d.getMonth() + 1, d: d.getDate() };
 }
 
-const DAYS = [
-  { d: 7, key: "rose", title: "Rose Day", desc: "Express love and friendship with roses.", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1280&auto=format&fit=crop" },
-  { d: 8, key: "propose", title: "Propose Day", desc: "Confess love and take the next step.", img: "https://images.unsplash.com/photo-1520975922209-c0704a0e2591?q=80&w=1280&auto=format&fit=crop" },
+const DAYS 
+  { d: 7, key: "rose", title: "Rose Day", desc: "Every petal carries my love for you", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1280&auto=format&fit=crop" },
+  { d: 8, key: "propose", title: "Propose Day", desc: "I love you for infinity, Will you be my life partner??.", img: "https://images.unsplash.com/photo-1520975922209-c0704a0e2591?q=80&w=1280&auto=format&fit=crop" },
   { d: 9, key: "chocolate", title: "Chocolate Day", desc: "Share affection by gifting chocolates.", img: "https://images.unsplash.com/photo-1497058072375-24e22d77f0f2?q=80&w=1280&auto=format&fit=crop" },
-  { d: 10, key: "teddy", title: "Teddy Day", desc: "Gift a soft toy to express love.", img: "https://images.unsplash.com/photo-1602536052684-66105b0d09b8?q=80&w=1280&auto=format&fit=crop" },
-  { d: 11, key: "promise", title: "Promise Day", desc: "Make commitments to strengthen the relationship.", img: "https://images.unsplash.com/photo-1514820720301-4f5fa417eeb6?q=80&w=1280&auto=format&fit=crop" },
-  { d: 12, key: "hug", title: "Hug Day", desc: "Offer comfort and affection with a hug.", img: "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?q=80&w=1280&auto=format&fit=crop" },
-  { d: 13, key: "kiss", title: "Kiss Day", desc: "Romantic gestures and intimacy.", img: "https://images.unsplash.com/photo-1513026705753-bc3ba2ebc1f1?q=80&w=1280&auto=format&fit=crop" },
-  { d: 14, key: "valentine", title: "Valentine's Day", desc: "Celebrate love in full bloom.", img: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1280&auto=format&fit=crop" }
+  { d: 10, key: "teddy", title: "Teddy Day", desc: "You know who is my teddy??", img: "https://images.unsplash.com/photo-1602536052684-66105b0d09b8?q=80&w=1280&auto=format&fit=crop" },
+  { d: 11, key: "promise", title: "Promise Day", desc: "Let's make a promise.", img: "https://images.unsplash.com/photo-1514820720301-4f5fa417eeb6?q=80&w=1280&auto=format&fit=crop" },
+  { d: 12, key: "hug", title: "Hug Day", desc: "If I could be there, I have hugged so tightly..", img: "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?q=80&w=1280&auto=format&fit=crop" },
+  { d: 13, key: "kiss", title: "Kiss Day", desc: "I want your kissy baby!", img: "https://images.unsplash.com/photo-1513026705753-bc3ba2ebc1f1?q=80&w=1280&auto=format&fit=crop" },
+  { d: 14, key: "valentine", title: "Valentine's Day", desc: "let's Celebrate love in full bloom.", img: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1280&auto=format&fit=crop" }
 ];
 
 function unlocked(day) {
@@ -150,7 +150,7 @@ function renderDay() {
       
       
         <div style="display:flex; gap:12px">
-          <button id="surprise" class="button"> I Love You </button>
+          <button id="surprise" class="button"> > I Love You < </button>
       </div>
     </section>
     <section class="day-content">
@@ -165,7 +165,7 @@ function renderDay() {
         </div>
       </div>
       <div class="day-card">
-        <h3 class="day-card-title">Rose Day's specials memories :</h3>
+        <h3 class="day-card-title">Happy Rose Day my Sweetu.</h3>
         <div class="slider" id="photo-slider">
           <img src="Hiya.jpg" class="slide" alt="Hiya.jpg">
           <img src="Hiya2.png" class="slide" alt="placeholder">
@@ -285,6 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
 
 
 
