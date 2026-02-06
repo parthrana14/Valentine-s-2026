@@ -160,15 +160,15 @@ function renderDay() {
       .</p>
         <p id="day-message" class="day-card-body">Me aaj aapko rose to nahi fe painga buy my love for you is always pure and never wilt.</p>
         <div class="controls">
-          <input id="custom-message" class="input" type="text" placeholder="Kya soch rahe ho ji.?? tell me your thoughts..">
+          <input id="custom-message" class="input" type="text" placeholder="Kya soch rahe ho ji.?? tell me..">
           <button id="save-message" class="button">Save</button>
         </div>
       </div>
       <div class="day-card">
         <h3 class="day-card-title">You and Me 🥰 </h3>
         <div class="slider" id="photo-slider">
-          <img src="Hiya.jpg" class="slide" alt="${item.title}">
-          <img src="Hiya2.jpg" class="slide" alt="placeholder">
+          <img src="Hiya.jpg" class="slide" alt="placeholder">
+          <img src="Hiya2.png" class="slide" alt="placeholder">
           <img src="Hiya3.jpg" class="slide" alt="placeholder">
         </div>
       </div>
@@ -285,5 +285,6 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
 
 
