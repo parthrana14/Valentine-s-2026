@@ -19,12 +19,12 @@
    { d: 14, key: "valentine", title: "Valentine's Day", desc: "Celebrate love in full bloom.", img: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1280&auto=format&fit=crop" }
  ];
  
-function unlocked(day) {
-  const now = new Date();
-  const t = new Date(now.getFullYear(), 1, day);
-  if (q("preview") === "all") return true;
-  return now >= t;
-}
+// function unlocked(day) {
+//   const now = new Date();
+//   const t = new Date(now.getFullYear(), 1, day);
+//   if (q("preview") === "all") return true;
+//   return now >= t;
+// }
 function unlocked(day) {
   return true;
 }
@@ -53,3 +53,4 @@ function unlocked(day) {
  function renderTimeline() {
    const root = document.getElementById("timeline-root");
    if (!root) return;
+
