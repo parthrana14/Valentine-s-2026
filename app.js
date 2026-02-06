@@ -150,30 +150,30 @@ function renderDay() {
         <h2 class="day-hero-title">${item.title}</h2>
         <p class="day-hero-sub">${fmt(item.d)}</p>
         <div style="display:flex; gap:12px">
-          <button id="surprise" class="button">Surprise</button>
-          <button id="music-toggle" class="button">Music</button>
-        </div>
+          <button id="surprise" class="button"> I Love You </button>
       </div>
     </section>
     <section class="day-content">
       <div class="day-card">
-        <h3 class="day-card-title">A note for you</h3>
-        <p id="day-message" class="day-card-body">You make everything brighter. Even from afar, I’m with you.</p>
+        <h3 class="day-card-title">You know what...</h3>
+      <p id="day-message" class="day-card-body"> You have made my life so beautiful.. I'm so happy with you in our beautiful garden where a lot of beautiful flowers are growing!
+      .</p>
+        <p id="day-message" class="day-card-body">Me aaj aapko rose to nahi fe painga buy my love for you is always pure and never wilt.</p>
         <div class="controls">
-          <input id="custom-message" class="input" type="text" placeholder="Write your custom message">
+          <input id="custom-message" class="input" type="text" placeholder="Kya soch rahe ho ji.?? tell me your thoughts..">
           <button id="save-message" class="button">Save</button>
         </div>
       </div>
       <div class="day-card">
-        <h3 class="day-card-title">Gallery</h3>
+        <h3 class="day-card-title">You and Me 🥰 </h3>
         <div class="slider" id="photo-slider">
           <img src="${item.img}" class="slide" alt="${item.title}">
           <img src="https://picsum.photos/seed/${item.key}/640/360" class="slide" alt="placeholder">
           <img src="https://picsum.photos/seed/${item.key}2/640/360" class="slide" alt="placeholder">
         </div>
       </div>
-      <div class="day-actions">
-        <a href="timeline.html" class="button">Back to Dates</a>
+      <div class="day">
+        <a href="timeline.html" class="button">Next suprise is waiting tomorrow..</a>
       </div>
     </section>
     <div id="hearts-root" class="hearts-root"></div>
@@ -285,3 +285,4 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
