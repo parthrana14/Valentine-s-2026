@@ -10,7 +10,7 @@ function ymd(d) {
 const DAYS = [
   { d: 7, key: "rose", title: "Rose Day", desc: "Every petal carries my love for you", img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1280&auto=format&fit=crop" },
   { d: 8, key: "propose", title: "Propose Day", desc: "I love you for infinity, Will you be my life partner??.", img: "https://images.unsplash.com/photo-1520975922209-c0704a0e2591?q=80&w=1280&auto=format&fit=crop" },
-  { d: 9, key: "chocolate", title: "Chocolate Day", desc: "Share affection by gifting chocolates.", img: "https://images.unsplash.com/photo-1497058072375-24e22d77f0f2?q=80&w=1280&auto=format&fit=crop" },
+  { d: 9, key: "chocolate", title: "Chocolate Day", desc: "I want chocolates from my ras malai..", img: "https://images.unsplash.com/photo-1497058072375-24e22d77f0f2?q=80&w=1280&auto=format&fit=crop" },
   { d: 10, key: "teddy", title: "Teddy Day", desc: "You know who is my teddy??", img: "https://images.unsplash.com/photo-1602536052684-66105b0d09b8?q=80&w=1280&auto=format&fit=crop" },
   { d: 11, key: "promise", title: "Promise Day", desc: "Let's make a promise.", img: "https://images.unsplash.com/photo-1514820720301-4f5fa417eeb6?q=80&w=1280&auto=format&fit=crop" },
   { d: 12, key: "hug", title: "Hug Day", desc: "If I could be there, I have hugged so tightly..", img: "https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?q=80&w=1280&auto=format&fit=crop" },
@@ -285,6 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
 
 
 
