@@ -145,10 +145,10 @@ function renderDay() {
   }
   storeOpen(item.d);
   root.innerHTML = `
-    <section class="day-hero" style="background-image:url('${item.img}')">
+    <section class="day-hero" style="background-image:url('Hiya2.png')">
       <div class="day-hero-overlay">
-        <h2 class="day-hero-title">${item.title}</h2>
-        <p class="day-hero-sub">${fmt(item.d)}</p>
+      
+      
         <div style="display:flex; gap:12px">
           <button id="surprise" class="button"> I Love You </button>
       </div>
@@ -165,9 +165,9 @@ function renderDay() {
         </div>
       </div>
       <div class="day-card">
-        <h3 class="day-card-title">You and Me 🥰 </h3>
+        <h3 class="day-card-title">Rose Day's specials memories :</h3>
         <div class="slider" id="photo-slider">
-          <img src="Hiya.jpg" class="slide" alt="placeholder">
+          <img src="Hiya.jpg" class="slide" alt="Hiya.jpg">
           <img src="Hiya2.png" class="slide" alt="placeholder">
           <img src="Hiya3.jpg" class="slide" alt="placeholder">
         </div>
@@ -285,6 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
 
 
 
