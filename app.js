@@ -167,9 +167,9 @@ function renderDay() {
       <div class="day-card">
         <h3 class="day-card-title">You and Me 🥰 </h3>
         <div class="slider" id="photo-slider">
-          <img src="${item.img}" class="slide" alt="${item.title}">
-          <img src="https://picsum.photos/seed/${item.key}/640/360" class="slide" alt="placeholder">
-          <img src="https://picsum.photos/seed/${item.key}2/640/360" class="slide" alt="placeholder">
+          <img src="Hiya.jpg" class="slide" alt="${item.title}">
+          <img src="Hiya2.jpg" class="slide" alt="placeholder">
+          <img src="Hiya3.jpg" class="slide" alt="placeholder">
         </div>
       </div>
       <div class="day">
@@ -285,4 +285,5 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
 
