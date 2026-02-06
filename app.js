@@ -169,11 +169,11 @@ function renderDay() {
         <div class="slider" id="photo-slider">
           <img src="Hiya.jpg" class="slide" alt="Hiya.jpg">
           <img src="Hiya2.png" class="slide" alt="placeholder">
-          <img src="Hiya3.jpg" class="slide" alt="placeholder">
+          <img src="Hiya4.jpg" class="slide" alt="placeholder">
         </div>
       </div>
       <div class="day">
-        <a href="timeline.html" class="button">Next suprise is waiting tomorrow..</a>
+        <a href="timeline.html" class="button">Next suprise is coming tomorrow..</a>
       </div>
     </section>
     <div id="hearts-root" class="hearts-root"></div>
@@ -285,6 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderTimeline();
   renderDay();
 });
+
 
 
 
